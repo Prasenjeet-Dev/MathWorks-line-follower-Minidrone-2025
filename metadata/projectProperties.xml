@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project MetadataType="monolithic">
+    <EntryPointGroups Location="Root">
+        <EntryPointGroup Location="8b595501-8885-42db-97cb-789b358fa64e">
+            <Info Name="Model Actions"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="3ffd8178-aff2-46a4-819e-cb750d5bcbd4">
+            <Info Name="Hardware Selection"/>
+        </EntryPointGroup>
+        <EntryPointGroup Location="25c56cc6-946a-47ef-8668-0531a69397ef">
+            <Info Name="Code Generation"/>
+        </EntryPointGroup>
+    </EntryPointGroups>
+    <Files Location="Root">
+        <File Location="utilities">
+            <File Location="isParrotSupportPkgInstalled.p">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="generateFlightCode.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="81b9fd9b-0663-4057-9e72-c8e13cac241e"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="drone_track_builder.mlapp">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="openTrackBuilder.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="startVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="cleanUpProject.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="tasks">
+            <File Location="setGRTCodeGen.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="81b9fd9b-0663-4057-9e72-c8e13cac241e"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sensorsVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbBusDefinitionSensors.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="estimatorVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info/>
+            <File Location="private">
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+                <File Location="asbBusHeaderFile.p">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="convenience"/>
+                        </Category>
+                    </Info>
+                </File>
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="none"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbBusDefinitionStates.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbBusDefinitionEnvironment.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="vehicleVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="setRollingSpiderModel.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="commandVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="setPARROTCodeGen.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="81b9fd9b-0663-4057-9e72-c8e13cac241e"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="controllerVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbEnumDefinition.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="visualizationFlightGearVars.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbVariantDefinition.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbBusDefinitionCommand.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="setMamboModel.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="tests">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="runProjectTests.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="nonlinearAirframe">
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="nonlinearAirframe.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="b48e7216-3381-44bd-9ee7-ab7979645a9b"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="libraries">
+            <File Location="environmentLibrary.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="b48e7216-3381-44bd-9ee7-ab7979645a9b"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="dynamicsLibrary.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="b48e7216-3381-44bd-9ee7-ab7979645a9b"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+        <File Location="controller">
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="flightControlSystem.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="527cb8e2-1296-409c-bf21-52c7d1ae5725"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="support">
+            <File Location="arena.wrl">
+                <Info/>
+            </File>
+            <File Location="asbWaypointMarker.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbQuadcopterAHBase.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="texture">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+                <File Location="MathWorks_logo.png">
+                    <Info/>
+                </File>
+                <File Location="gravel.jpg">
+                    <Info/>
+                </File>
+                <File Location="MW_logo_transp.gif">
+                    <Info>
+                        <Category UUID="FileClassCategory">
+                            <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                        </Category>
+                    </Info>
+                </File>
+                <DIR_SIGNIFIER Location="1">
+                    <Info/>
+                </DIR_SIGNIFIER>
+            </File>
+            <File Location="asbQuadcopterBladeCCW.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="LICENSE.md">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="other"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbQuadcopterBladeCW.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbQuadcopterAH3.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbQuadcopterAH1-4.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="MWAerial.png">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="asbQuadcopterWorld.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="arena_tmpl.wrl">
+                <Info/>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="asbQuadcopterBody.wrl">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="1c044bc9-448b-4104-b0e2-acd2eaa560dd"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="mainModels">
+            <File Location="Position_Attitude_Reference.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="sensorCalibration.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="16ba957b-7e8b-47f7-8de3-b36a26eafd6f"/>
+                    </Category>
+                </Info>
+            </File>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+            <File Location="Position_Reference.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="cmdData.xlsx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <File Location="cmdData.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="modelParrot.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="convenience"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="parrotMinidroneCompetition.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="design"/>
+                    </Category>
+                </Info>
+            </File>
+        </File>
+        <File Location="linearAirframe">
+            <File Location="linearizedAirframe.mat">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="527cb8e2-1296-409c-bf21-52c7d1ae5725"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="linearAirframe.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="b48e7216-3381-44bd-9ee7-ab7979645a9b"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="trimLinearizeOpPoint.m">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="527cb8e2-1296-409c-bf21-52c7d1ae5725"/>
+                    </Category>
+                </Info>
+            </File>
+            <File Location="trimNonlinearAirframe.slx">
+                <Info>
+                    <Category UUID="FileClassCategory">
+                        <Label UUID="b48e7216-3381-44bd-9ee7-ab7979645a9b"/>
+                    </Category>
+                </Info>
+            </File>
+            <DIR_SIGNIFIER Location="1">
+                <Info/>
+            </DIR_SIGNIFIER>
+            <Info>
+                <Category UUID="FileClassCategory">
+                    <Label UUID="none"/>
+                </Category>
+            </Info>
+        </File>
+    </Files>
+    <EntryPoints Location="Root">
+        <EntryPoint Location="0a575119-b6ad-4abc-b869-271f00066c7c">
+            <Info File="utilities/openTrackBuilder.m" Icon=""
+                Name="Open Track Builder" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="873f6d9e-2f1a-46e2-be79-c4aa30267553">
+            <Info File="linear/trimLinearizeOpPoint.m"
+                Name="Trim Model at Operation Point" Type="Basic"/>
+        </EntryPoint>
+        <EntryPoint Location="1d69fd50-c763-49b4-8fd9-8cb5441e56cb">
+            <Info File="mainModels/parrotMinidroneCompetition.slx"
+                GroupUUID="8b595501-8885-42db-97cb-789b358fa64e" Icon=""
+                Name="Open Quadcopter Model" Type="StartUp" Visible="0"/>
+        </EntryPoint>
+        <EntryPoint Location="a7441b1f-0655-4598-a361-b1426dd6e7b0">
+            <Info File="tasks/setRollingSpiderModel.m"
+                GroupUUID="3ffd8178-aff2-46a4-819e-cb750d5bcbd4" Icon=""
+                Name="Set Rolling Spider Model" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="7cbe1ab5-4418-4e0c-b5c8-02e257daef7f">
+            <Info File="utilities/startVars.m"
+                GroupUUID="8b595501-8885-42db-97cb-789b358fa64e"
+                Name="Initialize Variables" Type="StartUp"/>
+        </EntryPoint>
+        <EntryPoint Location="2045f719-a6ad-4224-a852-0c013204d4c4">
+            <Info File="utilities/cleanUpProject.m"
+                Name="Clean Up Project" Type="Shutdown"/>
+        </EntryPoint>
+        <EntryPoint Location="28103d1b-e174-4506-8369-f685509ac106">
+            <Info File="utilities/generateFlightCode.m"
+                GroupUUID="25c56cc6-946a-47ef-8668-0531a69397ef" Icon=""
+                Name="Generate Code" Type="Basic" Visible="1"/>
+        </EntryPoint>
+        <EntryPoint Location="82b8cb27-1382-4940-89d0-a5d086aaf093">
+            <Info File="tasks/setMamboModel.m"
+                GroupUUID="3ffd8178-aff2-46a4-819e-cb750d5bcbd4" Icon=""
+                Name="Set Mambo Model" Type="Basic" Visible="1"/>
+        </EntryPoint>
+    </EntryPoints>
+    <Categories Location="Root">
+        <Category Location="FileClassCategory">
+            <Label Location="16ba957b-7e8b-47f7-8de3-b36a26eafd6f">
+                <Info Name="Calibration Data" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="e4a59034-5a93-4fee-805c-e7aec2b6c019">
+                <Info Name="Test" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="design">
+                <Info Name="Design" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="convenience">
+                <Info Name="Convenience" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="other">
+                <Info Name="Other" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="artifact">
+                <Info Name="Artifact" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="81b9fd9b-0663-4057-9e72-c8e13cac241e">
+                <Info Name="Code Generation" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="f0ddb48e-5a47-40ba-bfbe-fcb52689c448">
+                <Info Name="Image Processing" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="1c044bc9-448b-4104-b0e2-acd2eaa560dd">
+                <Info Name="Visualization" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="none">
+                <Info Name="None" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="b48e7216-3381-44bd-9ee7-ab7979645a9b">
+                <Info Name="Airframe Design" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="derived">
+                <Info Name="Derived" ReadOnly="READ_ONLY"/>
+            </Label>
+            <Label Location="73e2d482-a604-484e-b859-cc54480a6bd9">
+                <Info Name="Trajectory Generation" ReadOnly="WRITABLE"/>
+            </Label>
+            <Label Location="527cb8e2-1296-409c-bf21-52c7d1ae5725">
+                <Info Name="Flight Controller Design" ReadOnly="WRITABLE"/>
+            </Label>
+            <Info DataType="None" Name="Classification" ReadOnly="1" SingleValued="1"/>
+        </Category>
+    </Categories>
+    <ProjectPath Location="Root">
+        <Reference Location="e6363a1d-ac71-4098-854b-7b85257bcb65">
+            <Info Ref="support" Type="Relative"/>
+        </Reference>
+        <Reference Location="37f2259f-e417-4645-b9ee-4b95f7449c81">
+            <Info Ref="tasks" Type="Relative"/>
+        </Reference>
+        <Reference Location="aa7c99be-799b-4e39-8f17-016aa219d55b">
+            <Info Ref="mainModels" Type="Relative"/>
+        </Reference>
+        <Reference Location="1bf9eafd-60fd-4822-8d4c-6630fc8d396b">
+            <Info Ref="tests" Type="Relative"/>
+        </Reference>
+        <Reference Location="d6f15f05-644c-47d2-a58e-54df441f5be6">
+            <Info Ref="utilities" Type="Relative"/>
+        </Reference>
+        <Reference Location="f31eaf61-bc84-4185-811d-b571423fe8d4">
+            <Info Ref="nonlinearAirframe" Type="Relative"/>
+        </Reference>
+        <Reference Location="4c3edff8-97c6-47df-ba03-3babdba0ad49">
+            <Info Ref="controller" Type="Relative"/>
+        </Reference>
+        <Reference Location="ecf0bd7e-eea1-4c0a-be02-9ffa7f589cd2">
+            <Info Ref="libraries" Type="Relative"/>
+        </Reference>
+        <Reference Location="81ab73c4-02d2-4b12-853f-d4dff4fa67d1">
+            <Info Ref="linearAirframe" Type="Relative"/>
+        </Reference>
+    </ProjectPath>
+    <WorkingFolders Location="Root">
+        <Reference Location="SimulinkCacheFolder">
+            <Info Ref="work" Type="Relative"/>
+        </Reference>
+        <Reference Location="SimulinkCodeGenFolder">
+            <Info Ref="work" Type="Relative"/>
+        </Reference>
+    </WorkingFolders>
+    <Root Location="Extensions">
+        <Extension Location="Information">
+            <Info description="This example is the reference model to be used by participants of the MathWorks Minidrone Competition. It demonstrates how Simulink(R) is used to model the PARROT Mambo Minidrone. The algorithm can be directly deployed on the Parrot Mambo hardware using the Simulink Support Package for Parrot Minidrones."/>
+        </Extension>
+    </Root>
+    <Config Location="UUID">
+        <Info UUID="2ea9eb11-b9a2-4b18-992e-cca104952322"/>
+    </Config>
+    <Info Location="ProjectData">
+        <Info Name="MinidroneCompetition"/>
+    </Info>
+</project>
